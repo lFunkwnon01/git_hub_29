@@ -1,6 +1,6 @@
 import unittest
 
-from ..src.main import calculate
+from docs.main import calculate
 
 
 class TestCalculator(unittest.TestCase):
