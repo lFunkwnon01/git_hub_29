@@ -33,4 +33,5 @@ jobs:
       - name: Run tests
         run: |
           echo "Running tests..."
-          python -m unittest test.py
+          python -m unittest -v test.py
+      
