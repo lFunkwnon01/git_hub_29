@@ -16,6 +16,7 @@ class TestCalculator(unittest.TestCase):
     def test_sum_with_zero(self):
         self.assertEqual(calculate("0 + 5"), 5)
 
+
     def test_subtract_simple(self):
         self.assertEqual(calculate("5 - 2"), 3)
 
